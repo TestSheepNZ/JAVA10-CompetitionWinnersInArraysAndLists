@@ -122,6 +122,7 @@ public class randomWinner {
               entrants.add("@Shicky4");
               entrants.add("@srinivasskc");
               entrants.add("@techgirl1908");
+
              
               System.out.println("Num entrants: " + entrants.size());
               randWinner.setNumEntrants (entrants.size());
@@ -135,9 +136,12 @@ public class randomWinner {
               // Remove winner
               entrants.remove(winnerNum);
              
-              System.out.println("Didn't win");
-              System.out.println(entrants);
-             
+              System.out.println("The following didn't win");
+              
+              for(String twitterHandle :entrants)
+              {
+            	  System.out.println(twitterHandle);
+              }      
              
        }
 }
