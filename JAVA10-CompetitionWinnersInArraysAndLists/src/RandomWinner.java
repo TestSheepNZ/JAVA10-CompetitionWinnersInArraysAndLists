@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.Arrays;
  
-public class randomWinner {
+public class RandomWinner {
  
        private int numEntrants;
       
@@ -36,7 +36,7 @@ public class randomWinner {
        {
               System.out.println("============================");
               System.out.println("Confirming even distribution");
-              randomWinner randWinner = new randomWinner();
+              RandomWinner randWinner = new RandomWinner();
               int numEntrants = 8;
               int[] countArray = new int[numEntrants];
               int counter, index;
@@ -85,7 +85,7 @@ public class randomWinner {
               System.out.println("============================");
               System.out.println("Selecting a winner");
              
-              randomWinner randWinner = new randomWinner();
+              RandomWinner randWinner = new RandomWinner();
              
               String[] entrants = {
                            "@neilstudd",
@@ -111,7 +111,7 @@ public class randomWinner {
        @Test
        public void TheListedWinnersAre ()
        {
-              randomWinner randWinner = new randomWinner();
+              RandomWinner randWinner = new RandomWinner();
              
               ArrayList<String> entrants = new ArrayList<String>();
               entrants.add("@neilstudd");
