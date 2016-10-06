@@ -12,9 +12,10 @@
 
 import org.junit.Test;
 import static org.junit.Assert.*;
- 
+
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
  
 public class RandomWinner {
  
@@ -112,8 +113,9 @@ public class RandomWinner {
        public void TheListedWinnersAre ()
        {
               RandomWinner randWinner = new RandomWinner();
-             
-              ArrayList<String> entrants = new ArrayList<String>();
+              
+              List<String> entrants = new ArrayList<String>();
+
               entrants.add("@neilstudd");
               entrants.add("@erikhun");
               //entrants.add("@miller_alaine");
